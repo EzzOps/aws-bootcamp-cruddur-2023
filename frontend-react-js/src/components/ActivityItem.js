@@ -1,9 +1,11 @@
+import React from "react";
+
 import './ActivityItem.css';
 
 import ActivityContent  from '../components/ActivityContent';
 import ActivityActionReply  from '../components/ActivityActionReply';
 import ActivityActionRepost  from '../components/ActivityActionRepost';
-import ActivityActionLike  from '../components/ActivityActionLike';
+import ActivityActionLike  from './ActivityActionLike.js';
 import ActivityActionShare  from '../components/ActivityActionShare';
 
 export default function ActivityItem(props) {
